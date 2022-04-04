@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: white;
+  min-height: 100vh;
+  height: max-content;
+  position: relative;
+  overflow: scroll;
+}
+nav{
+  display: flex;
+  width: 100%;
+  background-color: aliceblue;
+  border-bottom: solid 1px rgb(185, 184, 184);
+}
+a.btnNav{
+  text-decoration: none;
+  padding: 15px 20px;
+  background-color: aliceblue;
+  color: rgb(54, 53, 53);
+  font-size: 20px;
+  transition: 0.5s;
+  font-family: 'Bebas Neue', cursive;
+}
+a.btnNav:hover{
+  background-color: rgb(173, 184, 194);
+  color: rgb(88, 45, 45);
+}
+#container{
+  padding: 20px 0;
+  width: 100%;
+}
+.presentacion{
+  border: 1px solid #e7d5d5;
+  margin: 20px 0;
+  padding: 20px 10px; 
+  box-shadow: 0 0 3px 4px #aec9e1;
+
+}
+.presentacion h2{
+  font-family: 'Kanit', sans-serif;
+}
+.presentacion p{
+  font-family: 'Kanit', sans-serif;
+}
+footer{
+  display: block;
+  width: 100%;
+  position: absolute; 
+  bottom: 0;
+  background-color: aliceblue;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  color: rgb(54, 53, 53);
+  height: 50px;
+  margin-top: 30px;
+}
+footer a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #9f6e6e;
+  transition: 0.5s;
+}
+footer a:hover{
+  color: #4754a0;
+
+}
